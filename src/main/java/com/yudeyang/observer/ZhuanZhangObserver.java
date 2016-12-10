@@ -11,8 +11,6 @@ public class ZhuanZhangObserver implements Observer {
     public void update(Observable o, Object arg) {
         if(((Integer)arg).intValue()==2){
             System.out.println("谁给我转账了！");
-        }else{
-            System.out.println("I am zhuanzhang");
         }
     }
 }

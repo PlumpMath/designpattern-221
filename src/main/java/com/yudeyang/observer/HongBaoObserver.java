@@ -11,8 +11,6 @@ public class HongBaoObserver implements Observer {
     public void update(Observable o, Object arg) {
         if(((Integer)arg).intValue()==1){
             System.out.println("红包来了！");
-        }else{
-            System.out.println("I am hongbao");
         }
     }
 }
