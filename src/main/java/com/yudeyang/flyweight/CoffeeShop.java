@@ -5,6 +5,8 @@ import java.util.Map;
 import java.util.Vector;
 import java.util.concurrent.ConcurrentHashMap;
 
+
+//https://en.wikipedia.org/wiki/Flyweight_pattern
 // Instances of CoffeeFlavour will be the Flyweights
 class CoffeeFlavour {
     private final String name;

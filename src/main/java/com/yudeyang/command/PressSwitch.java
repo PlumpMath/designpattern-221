@@ -15,6 +15,8 @@ public class PressSwitch {
       Switch mySwitch = new Switch();
 
       mySwitch.storeAndExecute(switchUp);
+      
       mySwitch.storeAndExecute(switchDown);
+
    }
 }
